@@ -15,13 +15,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# Telegram & Birdeye Setup
-# Telegram Bot Configuration
-BOT_TOKEN=8022122944:AAGM0SxZAwF5V6gJg-yDVHNPls05lKoWMoo
-ADMIN_ID=5950741458
 
-# Birdeye API Configuration
-BIRDEYE_API_KEY=cf6800ffe5754d46af1f2f3dda65ab31
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Referral Links
