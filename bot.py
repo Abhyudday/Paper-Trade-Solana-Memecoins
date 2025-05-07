@@ -16,9 +16,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Telegram & Birdeye Setup
-BOT_TOKEN = os.getenv('BOT_TOKEN')
-BIRDEYE_API_KEY = os.getenv('BIRDEYE_API_KEY')
-ADMIN_ID = int(os.getenv('ADMIN_ID', '0'))  # Convert to int with default 0
+# Telegram Bot Configuration
+BOT_TOKEN=8022122944:AAGM0SxZAwF5V6gJg-yDVHNPls05lKoWMoo
+ADMIN_ID=5950741458
+
+# Birdeye API Configuration
+BIRDEYE_API_KEY=cf6800ffe5754d46af1f2f3dda65ab31
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Referral Links
